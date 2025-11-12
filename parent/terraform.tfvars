@@ -28,7 +28,6 @@ public_ip = {
     allocation_method   = "Static"
     tags = {
       Environment = "dev"
-      managed_by  = "terraform"
     }
   }
 } 
