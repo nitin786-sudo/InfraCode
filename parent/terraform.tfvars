@@ -18,18 +18,6 @@ vnet = {
       }
     }
   }
-  vnet2 = {
-    name                = "VNetTwo"
-    address_space       = ["10.1.0.0/16"]
-    location            = "East US"
-    resource_group_name = "ResourceGroupOne"
-    subnet = {
-      subnet2 = {
-        name           = "SubnetTwo"
-        address_prefixes = ["10.1.0.0/24"]
-      }
-    }
-  }
 }
 
 public_ip = {
