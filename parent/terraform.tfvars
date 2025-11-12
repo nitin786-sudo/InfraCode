@@ -27,7 +27,8 @@ public_ip = {
     location            = "East US"
     allocation_method   = "Static"
     tags = {
-      Environment = "Production"
+      Environment = "dev"
+      managed_by  = "terraform"
     }
   }
 } 
